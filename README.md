@@ -1,6 +1,6 @@
 # Different methodology for styling React Components
 
-In this article, we are going to see various ways we can style React components. The methods of styling we will explore are:
+In this application, we are going to see various ways we can style React components. The methods of styling we will explore are:
 
 Inline styling
 styled-components
