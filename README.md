@@ -2,11 +2,11 @@
 
 In this application, we are going to see various ways we can style React components. The methods of styling we will explore are:
 
-# Inline styling
-# Styled-components
-# Styled object
-# CSS Modules
-# SCSS 
+### Inline styling
+### Styled-components
+### Styled object
+### CSS Modules
+### SCSS 
 
 For SCSS install this package
 ```bash
