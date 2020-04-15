@@ -1,0 +1,11 @@
+@import "variables.scss";
+
+h1, h2 {
+  color: $primaryColor;
+}
+
+.button{
+  display: block;
+  color: $primaryColor;
+  background-color: blue;
+}
