@@ -7,6 +7,7 @@ import { StyleObjectComponent } from "./styleObject/component"
 import { StyledComponent } from "./styledComponent/component"
 import { CssModuleComponent } from "./cssModule/component"
 import { ScssComponent } from "./scss/component"
+import { CssVariableComponent } from "./cssVariable/component"
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
             <li className="nav-item">
               <NavLink className="nav-link" activeClassName="active" to='/scss'>SCSS Way</NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" activeClassName="active" to='/cssvar'>CSS Varible Way</NavLink>
+            </li>
           </ul>
         </header>
         <section className="main-content">
@@ -44,6 +48,7 @@ function App() {
           <Route path="/styledComponent" component={StyledComponent} />
           <Route path="/cssModule" component={CssModuleComponent} />
           <Route path="/scss" component={ScssComponent} />
+          <Route path="/cssvar" component={CssVariableComponent} />
         </section>
       </BrowserRouter>
     </div >

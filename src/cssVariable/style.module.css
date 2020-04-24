@@ -1,0 +1,20 @@
+    :root {
+        --color-text: black;
+        --color-background: lightgray;
+    }
+
+    html {
+        --color-background: lightgray;
+        --color-primary: rebeccapurple;
+        --gutter: 20px;
+    }
+
+    .desc {
+        color: var(--color-text, pink);
+        margin-bottom: var(--gutter);
+    }
+
+    .title {
+        color: var(--color-primary);
+        font-size: var(--gutter);
+    }
